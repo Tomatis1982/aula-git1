@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+body{
+    background: url("../Imagens/tecnologia.jpg");
+    color: black;
+}
+/* Imagem background secundario */
+figure#avatar{
+    width: 100px;
+    height: 50px;
+    margin: 0px 0px 0px -10px;
+}
+/* cabeçalho com letra externa */
+#layout h1{
+    font-family: 'Permanent Marker';
+    font-size: 60px;
+    color: rgb(19, 151, 112);
+    text-shadow: 2px 2px 2px rgb(99, 99, 99);
+    margin:0px 0px 0px 240px;
+    font-weight: 200;
+}
+#layout p{ 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin: -10px 0px 0px 0px;
+    font-weight: bold;
+}
+div#corpo {
+    width: 700px;
+    height: 700px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+#menu{
+    display: block;
+    flex-wrap: wrap; 
+ }
+#menu ul{
+        height: 100%;
+        width: 100%;
+        list-style: none;
+    }
+#menu li{
+        padding: 2px;
+        background-color: none;
+        padding: 2px;
+        margin: 2px;
+        display: block;
+        text-shadow: 1px 1px 1px rgb(80, 80, 80);
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-size: 25px;
+
+    }
+ #menu h1{
+    display: none;
+    }
+    
+ #menu a{
+    color: black;
+    text-decoration: none;
+}
+ #menu a:hover{
+    color: rgb(125, 151, 125);
+    text-decoration: none;
+    padding: 3px;  
+    box-decoration-break: slice;
+    box-shadow: 5px 5px 8px 0 #313131 ;
+    border-radius: 5px;
+}
+section.trabalhos {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+article.site{
+    font-family: 'Permanent Marker';
+    background-color: rgba(99, 99, 99, .3);
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+article.site a{
+    text-decoration: none;
+    color: seashell;
+}
+article.site a:hover{
+    color: rgb(125, 151, 125);
+    text-decoration: none;
+    padding: 3px;  
+    box-decoration-break: slice;
+    box-shadow: 5px 5px 8px 0 #313131 ;
+    border-radius: 5px;
+    
+}
+article.comercio{
+    font-family: 'Permanent Marker';
+    background-color: rgba(99, 99, 99, .3);
+    width: 110px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+article.comercio a{
+    text-decoration: none;
+    color: seashell;
+}
+article.comercio a:hover{
+    color: rgb(125, 151, 125);
+    text-decoration: none;
+    padding: 3px;  
+    box-decoration-break: slice;
+    box-shadow: 5px 5px 8px 0 #313131 ;
+    border-radius: 5px;
+}
+article.empresa{
+    font-family: 'Permanent Marker';
+    background-color: rgba(49, 49, 49, 0.3);
+    width: 120px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+article.empresa a{
+    text-decoration: none;
+    color: seashell;
+}
+article.empresa a:hover{
+    color: rgb(125, 151, 125);
+    text-decoration: none;
+    padding: 3px;  
+    box-decoration-break: slice;
+    box-shadow: 5px 5px 8px 0 #313131 ;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    color: blanchedalmond;
+    margin: -30px 0px -10px -10px;
+
+}
+footer a{
+    text-decoration: none;
+    color: blanchedalmond
+}
+footer a:hover{
+    color: rgb(125, 151, 125);
+    text-decoration: none;
+    padding: 3px;  
+    box-decoration-break: slice;
+    box-shadow: 5px 5px 8px 0 #313131 ;
+}
