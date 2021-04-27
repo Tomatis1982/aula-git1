@@ -24,7 +24,8 @@ figure#avatar{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
-    margin: -10px 0px 0px 0px;
+    margin: -8px 0px 0px 0px;
+    text-shadow: 1px 1px 1px white;
     font-weight: bold;
 }
 div#corpo {
